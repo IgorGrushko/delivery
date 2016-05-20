@@ -1,0 +1,38 @@
+@media(min-width: 700px){
+
+    /* topNav */
+    .topNav{text-align: center; margin-bottom: 15px;}
+    .topNav span{display: inline-block; padding: 0; margin: 0; background-color: transparent}
+    .topNav span.logo{float: left;}
+    .topNav span.logo a.logoLink{float: none;}
+    .topNav span.logo a.menuIcon{display: none;}
+    .topNav span.logins, .topNav span.track{display: inline-block;}
+    .topNav span.logins a{height: 25px; line-height: 25px; margin-top: 45px;}
+    .topNav span.track{float: right;}
+    .topNav span.track form{margin-top: 20px;}
+    .topNav span.track form label{text-align: left;}
+
+    /* nav */
+    .nav{text-align: center; border-left: 1px solid #9b9a9a; border-right: 1px solid #9b9a9a;}
+    .nav a{display: inline-block; border: 0 none; background-color: transparent; margin-left: 20px; margin-right: 20px; padding-top: 15px; padding-bottom: 15px;}
+    .nav a:hover{background-color: transparent; text-decoration: underline;}
+
+    /* container */
+    h1.pageTitle{font-size: 200%;}
+    .contacts span{display: inline-block; margin-left: 10px; margin-right: 10px;}
+
+    /* contactForm */
+    .contactForm .ww{min-width: 400px;}
+
+}
+
+
+@media(max-width:550px){
+    .grayBox img.floatLeft{float: none; width: 100%;}
+    .contactForm .ww{min-width: 220px;}
+}
+
+@media(min-width: 900px){
+    .nav a{margin-left: 40px; margin-right: 40px;}
+    .contacts span{font-size: 90%;}
+}

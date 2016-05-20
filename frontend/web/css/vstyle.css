@@ -1,0 +1,58 @@
+body{
+    font-family:Verdana, Geneva, sans-serif;
+    color: #222;
+    font-size: 16px;
+}
+
+.box{
+    display: block;
+    padding: 0 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.darkRed{color: #be1b21;}
+.error{color: red;}
+.green{color: green;}
+
+
+/* topNav */
+.topNav{overflow: hidden;}
+.topNav span{display: block; margin-bottom: 15px; padding: 10px; background-color: #fbfbfb; text-align: center;}
+.topNav span.logo{background-color: transparent; margin-bottom: 5px; overflow: hidden;}
+.topNav span.logo a{text-decoration: none; cursor: pointer; font-size: 22px;}
+.topNav span.logo a.logoLink{float: left;}
+.topNav span.logo a.menuIcon{float: right; margin-top: 25px;}
+.topNav span.logins, .topNav span.track{display: none;}
+.topNav span.menuOpen{display: block;}
+.topNav span.logins a{display: inline-block; color: gray; padding: 0 8px; text-decoration: none;}
+.topNav span.logins a:hover, .topNav span.logins a:focus{text-decoration: underline;}
+.topNav span.track form{display: inline-block;}
+.topNav span.track form label{display: block; margin-bottom: 5px; text-align: left;}
+.topNav span.track form input{font-size: 100%;}
+
+/* nav */
+.nav{border-top: 4px solid #be1b21; border-bottom: 1px solid #9b9a9a; overflow: hidden; padding: 0;}
+.nav a{display: block; padding: 10px 10px; border-bottom: 1px solid #ddd; text-decoration: none; background-color: #fbfbfb; color: #222;}
+.nav a:last-child{border-bottom: 0 none;}
+.nav a:hover, .nav a:focus{background-color: #f3f3f3;}
+
+/* container */
+.container a{color: #1c6476; text-decoration: none;}
+.container a:hover, .container a:focus{text-decoration: underline;}
+.container{padding: 0;}
+h1.pageTitle{font-size: 150%; margin: 25px 0; padding: 0 10px; text-align: center;}
+img.pageImg{display: block; width: 100%;}
+.grayBox{display: block; padding: 20px 10px; margin: 30px 0; background-color: #fbfbfb; font-size: 18px; overflow: hidden; line-height: 20px;}
+.grayBox h2{font-size: 140%; font-weight: bold; margin-bottom: 20px; line-height: 110%;}
+.grayBox p{margin: 10px 0;}
+.grayBox img.floatLeft{float: left; margin-right: 15px; margin-bottom: 5px;}
+.contacts{text-align: center; padding-left: 0; padding-right: 0;}
+.contacts span{display: block; margin-bottom: 25px; font-size: 100%;}
+.contacts span h3{font-size: 110%; margin-bottom: 7px;}
+
+/* contactForm */
+.contactForm{text-align: center;}
+.contactForm form{text-align: left; display: inline-block;}
+.contactForm th, .contactForm td{vertical-align: middle; padding-bottom: 20px;}
+.contactForm table th{padding-right: 5px; }
+.contactForm .ww{min-width: 300px;}

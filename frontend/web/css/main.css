@@ -1,0 +1,46 @@
+.body-main{
+
+    font-weight: bold;
+
+
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+body{
+    background: white;
+}
+
+
+
+.pageTitle{
+    font-size: 300%;
+    margin: 25px 0;
+    padding: 0 10px;
+    text-align: center;
+    color: black;
+}
+.darkRed{
+    color: #be1b21;
+}
+
+img.pageImg{
+    display: block;
+    width: 100%;
+    margin: 25px 0;
+    padding: 0 10px;
+}
+
+img.floatLeft{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.successButton {
+    color: green; /* Цвет текста */
+    text-align:center; /* Выравнивание текста по центру*/
+
+}
+
